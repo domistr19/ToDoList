@@ -1,0 +1,92 @@
+body{   background-color:#00CED1; 
+        width:100%;
+        display:flex;
+        justify-content: space-around;}
+
+main{   display:inline-block;
+        background-color: #008B8B;
+        font-family: 'Quicksand';
+        text-align: center;
+        color:#FFFAFA;
+        margin:20px auto;
+        padding:10px;
+        min-width: 400px;
+        border-radius: 10%;}
+
+h1{     color:#FFFAFA;
+        border: solid 2px #FFFAFA;
+        margin: 20px auto;
+        width:200px;
+        border-radius: 5%;}
+
+input{  border:solid 2px  #FFFAFA;
+        color:#00CED1; background-color: #FFFAFA;
+        margin: 20px auto;
+        max-width:200px; }
+
+button{ border:solid 2px  #FFFAFA;
+        font-family: 'Quicksand' bold;
+        color:#FFFAFA;
+        background-color:#00CED1 ;
+        margin: 10px auto;
+        max-width: 150px;
+        border-radius: 5%;}
+button:hover{   cursor: pointer;
+                       }
+
+ul {    color:#FFFAFA;
+        margin: 0px auto;
+        width:200px;
+        
+        }
+
+ul li{  width:100%;
+        align-items: center;
+        }
+
+.todocontainer{display:flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0px;
+                
+
+}
+
+.buttoncontainer{       display:flex;
+                        justify-content: space-between;                
+                        align-items: center;
+}
+
+.button-trash { 
+                background-image: url(trash_bin.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-color:transparent;
+                width:20px;height:20px; 
+                /*padding:5px;*/
+                margin:1px;
+                border: none;
+               
+                    
+}
+
+.button-check{  
+                background-image: url(CheckSquare.png);
+                width: 20px; height:20px;
+                /*padding:5px;*/
+                background-size: contain;
+                background-color:transparent;
+                border:none;
+                }
+
+.button-checked{  
+                background-image: url(CheckSquare.png);
+                width: 20px; height:20px;
+                background-size: contain;
+                background-color:#FFFAFA;
+                border:none;
+                }
+
+.button-deleted{
+                text-decoration: line-through;
+}
