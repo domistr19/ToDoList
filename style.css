@@ -83,10 +83,13 @@ ul li{  width:100%;
                 background-image: url(CheckSquare.png);
                 width: 20px; height:20px;
                 background-size: contain;
-                background-color:#FFFAFA;
-                border:none;
+                background-color: limegreen;
+                border:none;}
+.cross{         text-decoration: line-through;
+                
                 }
 
 .button-deleted{
                 text-decoration: line-through;
+                opacity:0.4;
 }

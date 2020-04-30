@@ -5,12 +5,13 @@ $('ul').append(
     $('li:last-child .button-check').click((event) =>{
         $(event.target).toggleClass('button-checked');});
 
-    /*function cross() {$('li:last-child .todocontainer').click((event)=> {
-        $(event.target).toggleClass('button-deleted');})};
-    $('li:last-child .button-trash').on("click",(cross));*/
+    $('li:last-child .button-check').click((event) =>{
+        $(event.target).parent().parent().toggleClass('cross');});    
      
-    $('li:last-child .todocontainer').click((event)=> {
-    $(event.target).toggleClass('button-deleted');});      
+    $('li:last-child .button-trash').click((event) =>{
+    $(event.target).parent().parent().toggleClass('button-deleted');});
+
+    $("input").val("");      
     
 }); 
     
